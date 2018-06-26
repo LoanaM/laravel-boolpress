@@ -9,6 +9,7 @@ class RoomController extends Controller
     public function index()
     {
       //view stanze
-      
+      return view('roomindex');
+
     }
 }
